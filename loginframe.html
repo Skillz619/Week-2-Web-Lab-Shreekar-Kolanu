@@ -1,0 +1,78 @@
+<html>
+<head>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>Login Form </title>
+  <div class="imgcontainer">
+    <h2>Please Login</h2>
+  </div>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/style.css"/>
+<!-- Include JS File Here -->
+<script src="js/login.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+
+<form id="form_id" method="post" name="myform">
+  <label><b></label>
+<input type="text" name="username"placeholder="Enter Username" id="username"/>
+    <label></b></label>
+<input type="password" name="password"placeholder="Enter Password" id="password"/>
+  <br>
+  <br>
+<input type="button" value="Login" button id="bg-green" onclick="validate()"class="btn btn-primary btn-lg btn-block">
+   </button>
+  
+</form>
+<label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  <br>
+  
+</div>
+</div>
+</body>
+</html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 10px;
+ 
+  display: inline-block;
+  border: 3px solid #ccc;
+  
+}
+
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 40px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
+</style>
